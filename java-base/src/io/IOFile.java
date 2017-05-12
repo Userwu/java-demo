@@ -9,10 +9,14 @@ import java.util.Scanner;
  * Date: 2017/1/12 0012
  * Time: 0:33
  *
- * @author <a href="http://userwu.github.io">wuhongxu</a>.
+ * @author <a href="http://userwu.github.io">zido</a>.
  * @version 1.0.0
  */
 public class IOFile {
+    public static void main(String[] args){
+        System.out.println("ok");
+    }
+
     public void copy() {
         try {
             final FileInputStream fis = new FileInputStream(new File("io/iofile/one.txt"));
