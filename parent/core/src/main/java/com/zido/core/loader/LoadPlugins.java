@@ -66,7 +66,7 @@ public class LoadPlugins {
 
     public static void main(String[] args) {
         final LoadPlugins loadPlugins = new LoadPlugins();
-        loadPlugins.loadJar("D:\\java\\java-demo\\parent\\node\\target\\node-1.0.0.jar");
+        loadPlugins.loadJar("parent/lib/node-1.0.0.jar");
         loadPlugins.runPlugins();
     }
 }
